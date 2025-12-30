@@ -1,37 +1,34 @@
-<h1 align="center">🕹️ Jogo do Número Secreto</h1>
+<h1 align="center">🕹️ Jogo do Número Secreto 2.0</h1>
 
 <p align="center">
-  Este é um projeto em desenvolvimento criado durante o curso de Lógica de Programação da Alura. O objetivo é criar um jogo interativo onde o usuário deve adivinhar um número gerado aleatoriamente pelo sistema.
+ Este projeto foi evoluído durante o curso de <b>Lógica de Programação: Explore funções e listas</b> da Alura. O jogo agora conta com uma estrutura mais limpa, utilizando funções parametrizadas e manipulação dinâmica do DOM.
 </p>
 
-<div align="center">
-  <img src="assets/Pronto.png" width="100px" alt="Boh and Yu-bird" style="vertical-align: middle;">
-  <strong style="font-size: 18px;">Status do Projeto: Finalizado </strong>
-</div>
+<div align="center"> <img src="assets/Em construção.png" width="100px" alt="Status" style="vertical-align: middle;"> <strong style="font-size: 18px;">Status: Evoluindo Funções 🚀</strong> </div>
 
 <br>
 
 
 ## 📝 Sobre o Projeto
-O "Número Secreto" é um jogo simples, mas que explora conceitos fundamentais de programação, como Lógica de programação, funções e condições.
+Nesta etapa, o código deixou de ser apenas uma sequência de comandos e passou a ser estruturado com funções. Isso permite que o código seja reutilizável e muito mais fácil de ler.
 
-## Funcionalidades atuais:
-Geração de um número aleatório entre 1 e 10.
+## 🛠️ Novas Funcionalidades:
+Funções com Parâmetros: Uma única função agora pode escrever em diferentes tags HTML.
 
-Campo de entrada para o usuário digitar o palpite.
+Contagem de Tentativas: O jogo identifica se você acertou de primeira ou após várias tentativas, ajustando o texto (singular/plural).
 
-Botão para verificar se o chute está correto.
+Reinicialização do Jogo: Botão "Novo Jogo" que é ativado apenas quando o usuário vence, limpando o campo e resetando o sorteio.
 
-Feedback visual na tela (se o número é maior ou menor que o alvo).
+Limpeza Automática: O campo de chute é limpo após cada tentativa errada
 
 ## 🚀 Tecnologias Utilizadas
-Para este projeto, estou utilizando:
+Além de HTML, CSS e JS básico, foram aplicados:
 
-<b>HTML5:</b> Estruturação da página.
+<b>Manipulação de Atributos:</b> Uso de setAttribute e removeAttribute.
 
-<b>CSS3:</b> Estilização e layout.
+<b>Refatoração:</b> Melhoria na organização do código existente.
 
-<b>JavaScript:</b> Toda a lógica do jogo e interatividade.
+<b>Template Strings:</b> Para exibir o número de tentativas dinamicamente.
 
 ## 🛠️ Como rodar o projeto
 Ainda não é necessário instalar nada! Para ver o que já foi feito:
@@ -51,21 +48,23 @@ Neste projeto, apliquei diversos conceitos de lógica de programação:
 | **Estruturas de Repetição** | `while`, `for`, uso do `break` |
 | **Condicionais** | `if-else`, Operador Ternário (`? :`) |
 | **Matemática e Lógica** | `Math.random()`, `ParseInt` , `Operadores Lógicos` (&&, || , !) e (<,>, <=, >=, ==, != ) |
-| **Sintaxe e Organização** | Template Strings (uso de backticks `` ` ``), Comentários |
+| **DOM (HTML/JS)** | `document.querySelector`, `innerHTML` , `getElementById` , `value`  |
+| **Atributos HTML** | `setAttribute`, `removeAttribute` (controle de botões) |
+| **Sintaxe e Organização** | Funções com parâmetros, Funções com retorno, Template Strings (``) e Comentários|
 
 ## Anotação 📝
 | Sintaxe | Função |
 | :--- | :--- |
-| document | É o ponto de partida para acessar e modificar qualquer parte da página usando JavaScript, como o HTML, CSS e texto. |
-| querySelector |  Um método do objeto document que busca elementos na página. Ele busca o primeiro elemento que encontrar com aquele seletor. |
-| innerHTML |  É uma propriedade do DOM (Document Object Model) em JavaScript que permite ler ou definir o conteúdo HTML e texto dentro de um elemento HTML |
-| onclcik | Significa "ao clicar", um evento em desenvolvimento web que executa um código (geralmente JavaScript) quando um usuário clica em um elemento de uma página, como um botão ou link, para criar interatividade, como exibir uma mensagem, mudar uma imagem ou redirecionar para outra página. |
-| function | É responsável por determinarlguma ação dentro do nosso programa, do nosso código |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| document |O objeto principal que representa sua página web. É a porta de entrada para acessar o HTML via JavaScript. |
+| querySelector |  Método que busca um elemento no HTML usando seletores CSS (como tag, .classe ou #id). |
+| innerHTML |  Propriedade que permite ler ou alterar o conteúdo (texto e tags) dentro de um elemento HTML. |
+| onclick | SAtributo de evento que dispara uma função JavaScript quando o elemento (geralmente um botão) é clicado. |
+| function | É responsável por determinarlguma ação dentro do programaBloco de código projetado para executar uma tarefa específica. Ajuda a organizar e reaproveitar lógica. |
+| return | Finaliza uma função e "devolve" um valor para quem a chamou (essencial em funções de cálculo ou sorteio). |
+| value | Propriedade usada para obter ou definir o valor atual de um campo de entrada (como o que o usuário digita no input). |
+| getElementById | Busca um elemento específico através do seu atributo ID. É mais rápido e direto para elementos únicos. |
+| setAttribute | Adiciona ou altera o valor de um atributo em um elemento (ex: desativar um botão com disabled). |
+| removeAttribute | Remove um atributo de um elemento HTML (ex: remover o disabled para reativar um botão). |
 
 ## 🤝 Contribuição
 Este é um projeto de estudos. Sinta-se à vontade para dar sugestões ou feedbacks!
