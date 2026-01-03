@@ -4,7 +4,7 @@
  Este projeto foi evoluído durante o curso de <b>Lógica de Programação: Explore funções e listas</b> da Alura. O jogo agora conta com uma estrutura mais limpa, utilizando funções parametrizadas e manipulação dinâmica do DOM.
 </p>
 
-<div align="center"> <img src="assets/Em construção.png" width="100px" alt="Status" style="vertical-align: middle;"> <strong style="font-size: 18px;">Status: Evoluindo Funções 🚀</strong> </div>
+<div align="center"> <img src="assets/Pronto.png" width="100px" alt="Status" style="vertical-align: middle;"> <strong style="font-size: 18px;">Status: Finalizado 🚀</strong> </div>
 
 <br>
 
@@ -65,6 +65,11 @@ Neste projeto, apliquei diversos conceitos de lógica de programação:
 | getElementById | Busca um elemento específico através do seu atributo ID. É mais rápido e direto para elementos únicos. |
 | setAttribute | Adiciona ou altera o valor de um atributo em um elemento (ex: desativar um botão com disabled). |
 | removeAttribute | Remove um atributo de um elemento HTML (ex: remover o disabled para reativar um botão). |
+| lenght | Tamanho da lista. |
+| .includes | Verifica se o elemento está na lista |
+| .push | Adicionar item ao final da lista |
+| .pop | Para remover o último elemento |
+| reponsiveVoice.speak() | É utilizada para que o navegador leia um texto em voz alta. |
 
-## 🤝 Contribuição
-Este é um projeto de estudos. Sinta-se à vontade para dar sugestões ou feedbacks!
+<h2 align="center">🤝 Contribuição</h2>
+<p align="center">Este é um projeto de estudos. Sinta-se à vontade para dar sugestões ou feedbacks!</p>
